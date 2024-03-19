@@ -1,12 +1,12 @@
 
-print("i love your vleg")
+print("mahiru san")
 print("i love Nameless")
-print("i love codon")
+print("hi thành đen lâm đỏ")
 print("load succes")
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
-Notification.new("<Color=Yellow> Loading <Z-azure Hub> <Color=/>"):Display()
+Notification.new("<Color=Yellow> Loading <Z-mahiru Hub> <Color=/>"):Display()
 Notification.new("<Color=Red> Made by Quôc Huy and Just one <Color=/>"):Display()
-Notification.new("<Color=White Hi lô Ní! <Color=/>"):Display()
+Notification.new("<Color=White làm đc như tao không! <Color=/>"):Display()
 -------------------// I Write... \\----------------------------------------
 
 
@@ -1468,17 +1468,17 @@ function AttackHit()
 end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Z-azure hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Z-azure hub"})
+local Window = OrionLib:MakeWindow({Name = "Z-mahiru hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Z-mahiru hub"})
 
 function Notify(h,i)
     OrionLib:MakeNotification({
-        Name = "Z-azure Hub",
+        Name = "Z-mahiru Hub",
         Content = h,
         Time = i
     })
 end
 
-Notify("Welcome To Z-azure hub Release",5)
+Notify("Welcome To Z-mahiru hub Release",5)
 Notify("Thank for use",5)
 
 local I = Window:MakeTab({
